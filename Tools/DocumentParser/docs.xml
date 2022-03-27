@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DocumentationApp</name>
+    </assembly>
+    <members>
+        <member name="T:StudyApp.Model.Book">
+            <summary>
+            책 모델
+            </summary>
+        </member>
+        <member name="P:StudyApp.Model.Book.CreatedTime">
+            <summary>
+            생성 일자 
+            </summary>
+        </member>
+        <member name="P:StudyApp.Model.Book.Type">
+            <summary>
+            책 종류
+            </summary>
+        </member>
+        <member name="P:StudyApp.Model.Book.Title">
+            <summary>
+            책 이름 
+            </summary>
+        </member>
+        <member name="M:StudyApp.Model.Book.#ctor(System.DateTime,StudyApp.Model.BookType,System.String)">
+            <summary>
+            책을 생성합니다.
+                1) 요약 1
+                2) 요약 2
+                    3) 요약 3
+                    4) 요약 4
+                    5) 요약 5
+            </summary>
+            <param name="createdTime" type="DateTime">생성 일자</param>
+            <param name="type" type="BookType">종류</param>
+            <param name="title" type="string">이름</param>
+            <code>
+            var game = new Book(DateTime.Now, BookType.Game, "Diablo II");
+            var history = new Book(DateTime.Now, BookType.History, "Korea");
+            </code>
+        </member>
+        <member name="M:StudyApp.Model.Book.ToString">
+            <summary>
+            책 정보 출력
+            </summary>
+            <returns>책 정보를 출력</returns>
+        </member>
+        <member name="T:StudyApp.Model.BookType">
+            <summary>
+            북 종류
+            </summary>
+        </member>
+        <member name="F:StudyApp.Model.BookType.Game">
+            <summary>
+            게임
+            </summary>
+        </member>
+        <member name="F:StudyApp.Model.BookType.History">
+            <summary>
+            역사
+            </summary>
+        </member>
+    </members>
+</doc>

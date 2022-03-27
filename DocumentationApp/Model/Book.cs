@@ -29,12 +29,18 @@ namespace StudyApp.Model
 
         /// <summary>
         /// 책을 생성합니다.
+        ///     1) 요약 1
+        ///     2) 요약 2
+        ///         3) 요약 3
+        ///         4) 요약 4
+        ///         5) 요약 5
         /// </summary>
-        /// <param name="createdTime">생성 일자</param>
-        /// <param name="type">종류</param>
-        /// <param name="title">이름</param>
+        /// <param name="createdTime" type="DateTime">생성 일자</param>
+        /// <param name="type" type="BookType">종류</param>
+        /// <param name="title" type="string">이름</param>
         /// <code>
-        /// var b = new Book(DateTime.Now, BookType.Game, "Diablo II");
+        /// var game = new Book(DateTime.Now, BookType.Game, "Diablo II");
+        /// var history = new Book(DateTime.Now, BookType.History, "Korea");
         /// </code>
         public Book(DateTime createdTime, BookType type, string title)
         {
