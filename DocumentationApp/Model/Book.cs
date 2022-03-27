@@ -33,7 +33,7 @@ namespace StudyApp.Model
         ///     2) 요약 2
         ///         3) 요약 3
         ///         4) 요약 4
-        ///         5) 요약 5
+        ///     5) 요약 5
         /// </summary>
         /// <param name="createdTime" type="DateTime">생성 일자</param>
         /// <param name="type" type="BookType">종류</param>
